@@ -1,3 +1,3 @@
-Proje seçilebilen maksimum 9 tane düğümün önce komşuluk matrislerini çizer.
-Ardından bu düğümler için prim ve ya kruskal algoritmalarına göre matrisler arasındaki en kısa yolu hesaplar.
-Kocaeli Üniversitesi ders projesidir.
+The project first draws the neighboring matrices of up to 9 nodes.
+It then calculates the shortest path between matrices for these nodes based on the prim's or kruskal algorithms.
+Kocaeli University is a course project.
