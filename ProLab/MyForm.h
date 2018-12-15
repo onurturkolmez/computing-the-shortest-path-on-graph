@@ -319,8 +319,8 @@ namespace ProLab {
 			}
 
 			numberOfNode++;
-			this->richTextBox1->Text += " D" + (numberOfNode - 1).ToString() + ":" + a->Name + "\n";
-			a->Text = "D" + (numberOfNode - 1).ToString();
+			this->richTextBox1->Text += " N" + (numberOfNode - 1).ToString() + ":" + a->Name + "\n";
+			a->Text = "N" + (numberOfNode - 1).ToString();
 
 			String^ delimStr = ",";
 			array<Char>^ delimiter = delimStr->ToCharArray();
@@ -343,7 +343,7 @@ namespace ProLab {
 		}
 		else
 		{
-			MessageBox::Show("En fazla 9 tane düðüm seçebilirsiniz!", "Uyarý", MessageBoxButtons::OK, MessageBoxIcon::Asterisk);
+			MessageBox::Show("You can choose 9 nodes maximum!", "Warning", MessageBoxButtons::OK, MessageBoxIcon::Asterisk);
 		}
 	}
 
@@ -712,7 +712,7 @@ namespace ProLab {
 
 			 //author ýnfo
 	private: System::Void btnAbout_Click(System::Object^  sender, System::EventArgs^  e) {
-		MessageBox::Show("ONUR TURKOLMEZ 100201085", "Project of Programming Language 2 Course", MessageBoxButtons::OK, MessageBoxIcon::Asterisk);
+		MessageBox::Show("ONUR TURKOLMEZ", "Project of Programming Language 2 Course", MessageBoxButtons::OK, MessageBoxIcon::Asterisk);
 	}
 
 	private: System::Int32 find(Int32 i)
